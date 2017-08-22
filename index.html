@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="brand"><span>Levin</span> Web Design</h1>
+        <div class="wrapper">
+            <div class="company-info">
+                <h3>Web Design</h3>
+                <ul>
+                    <li><i class="fa fa-road"></i> HaYarkon Street</li>
+                    <li><i class="fa fa-phone"></i> (+972) 54-4264598</li>
+                    <li><i class="fa fa-envelope"></i> y@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <div class="alert">Your message was successfully sent.Thanks!</div>
+                <h3>Email Us</h3>
+                <form id="contactForm">
+                    <p>
+                        </label>Name</label><br>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+                    <p>
+                        </label>Company</label><br>
+                        <input type="text" name="company" id="company">
+                    </p>
+                    <p>
+                        </label>Email </label><br>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <p>
+                        </label>Phone</label><br>
+                        <input type="number" name="phone" id="phone">
+                    </p>
+                    <p class="message-send">
+                        </label>Message</label><br>
+                        <textarea name="message" rows="5" id="message"></textarea>
+                    </p>
+                    <p class="message-send">
+                        <button type="">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
